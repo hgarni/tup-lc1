@@ -21,10 +21,10 @@ int main()
     while(numero >= -1000000) 
     { 
         if(i==0) { 
-            printf("\nEscriba un numero real"); 
+            printf("\nEscriba un numero real: "); 
         } 
         else { 
-            printf("\nEscriba otro numero real"); 
+            printf("\nEscriba otro numero real: "); 
         } 
         
         scanf("%f", &numero); 
