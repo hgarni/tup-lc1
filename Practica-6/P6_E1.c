@@ -1,4 +1,8 @@
 //Ejercicio 1 de la practica 6 de funciones
+//Crear una función que calcule el cubo de un número real (float). 
+//El resultado deberá ser otro número real. 
+//Probar esta función para calcular el cubo de 3.2 y el de 5. */
+
 #include <stdio.h> 
 
 float cubica(float numero) 
