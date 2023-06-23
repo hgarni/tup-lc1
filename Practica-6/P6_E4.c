@@ -8,7 +8,7 @@ int esPrimo (int n);
 int main() 
 { 
     int num; 
-    while (num) 
+    while (num > 0) 
     { 
         printf("Escriba un numero: "); 
         scanf("%d", &num); 
@@ -20,6 +20,7 @@ int main()
 int esPrimo (int n) 
 { 
     int r, res;
+
     if(n != 1) 
     { 
         r = 1; 
@@ -30,7 +31,8 @@ int esPrimo (int n)
             res = n % ++r; 
         } 
         
-        if (n == r) return 1; 
+        if (n == r) return 1;
+         
         else return 0; 
     } 
     
